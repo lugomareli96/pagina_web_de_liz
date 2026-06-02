@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Día Internacional de la Mujer</title>
+
+    <style>
+        body{
+            background-color:#f8d7e8;
+            font-family:Arial, sans-serif;
+            text-align:center;
+            margin:20px;
+        }
+
+        h1{
+            color:#8e44ad;
+        }
+
+        p{
+            font-size:18px;
+            color:#333;
+            max-width:800px;
+            margin:auto;
+        }
+
+        img{
+            width:400px;
+            max-width:100%;
+            height:auto;
+            border-radius:10px;
+            margin:20px 0;
+        }
+
+        a{
+            display:inline-block;
+            margin:15px;
+            padding:10px 20px;
+            background-color:#8e44ad;
+            color:white;
+            text-decoration:none;
+            border-radius:8px;
+        }
+
+        form{
+            background:white;
+            max-width:700px;
+            margin:30px auto;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0px 0px 10px gray;
+            text-align:left;
+        }
+
+        input, select, textarea{
+            width:100%;
+            padding:8px;
+            margin-top:5px;
+            margin-bottom:15px;
+            box-sizing:border-box;
+        }
+
+        button{
+            background-color:#8e44ad;
+            color:white;
+            border:none;
+            padding:12px 20px;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background-color:#6d2d91;
+        }
+
+        h2{
+            text-align:center;
+            color:#8e44ad;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Día Internacional de la Mujer</h1>
+
+    <p>
+        El Día Internacional de la Mujer se celebra cada 8 de marzo para reconocer
+        los logros sociales, económicos, culturales y políticos de las mujeres en
+        todo el mundo. Esta fecha promueve la igualdad de derechos, el respeto,
+        la inclusión y la eliminación de cualquier forma de discriminación,
+        fomentando una sociedad más justa para todas las personas.
+    </p>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/International_Women%27s_Day_Logo.svg/800px-International_Women%27s_Day_Logo.svg.png"
+         alt="Día Internacional de la Mujer">
+
+    <br>
+
+    <a href="https://www.un.org/es/observances/womens-day" target="_blank">
+        Más información
+    </a>
+
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+        <input type="hidden" name="access_key" value="67159a84-a6a2-4273-9523-0d014b36402b">
+
+        <input type="hidden" name="subject" value="Encuesta sobre el Día Internacional de la Mujer">
+
+        <h2>Encuesta de Opinión</h2>
+
+        <label>Nombre:</label>
+        <input type="text" name="nombre" required>
+
+        <label>1. ¿La información presentada fue útil?</label>
+        <select name="pregunta1" required>
+            <option value="">Selecciona una opción</option>
+            <option>Muy útil</option>
+            <option>Útil</option>
+            <option>Poco útil</option>
+            <option>Nada útil</option>
+        </select>
+
+        <label>2. ¿Aprendiste algo nuevo sobre el Día Internacional de la Mujer?</label>
+        <select name="pregunta2" required>
+            <option value="">Selecciona una opción</option>
+            <option>Sí</option>
+            <option>No</option>
+        </select>
+
+        <label>3. ¿La información fue fácil de entender?</label>
+        <select name="pregunta3" required>
+            <option value="">Selecciona una opción</option>
+            <option>Sí</option>
+            <option>No</option>
+        </select>
+
+        <label>4. ¿Consideras importante conmemorar esta fecha?</label>
+        <select name="pregunta4" required>
+            <option value="">Selecciona una opción</option>
+            <option>Mucho</option>
+            <option>Regular</option>
+            <option>Poco</option>
+        </select>
+
+        <label>5. ¿La imagen ayudó a comprender mejor el tema?</label>
+        <select name="pregunta5" required>
+            <option value="">Selecciona una opción</option>
+            <option>Sí</option>
+            <option>No</option>
+        </select>
+
+        <label>6. ¿Te gustaría obtener más información sobre los derechos de las mujeres?</label>
+        <select name="pregunta6" required>
+            <option value="">Selecciona una opción</option>
+            <option>Sí</option>
+            <option>No</option>
+        </select>
+
+        <label>7. ¿El contenido te pareció interesante?</label>
+        <select name="pregunta7" required>
+            <option value="">Selecciona una opción</option>
+            <option>Mucho</option>
+            <option>Regular</option>
+            <option>Poco</option>
+        </select>
+
+        <label>8. ¿Recomendarías esta información a otras personas?</label>
+        <select name="pregunta8" required>
+            <option value="">Selecciona una opción</option>
+            <option>Sí</option>
+            <option>No</option>
+        </select>
+
+        <label>9. ¿Crees que esta información promueve la igualdad de género?</label>
+        <select name="pregunta9" required>
+            <option value="">Selecciona una opción</option>
+            <option>Sí</option>
+            <option>No</option>
+        </select>
+
+        <label>10. ¿Qué calificación general le das a esta página?</label>
+        <select name="pregunta10" required>
+            <option value="">Selecciona una opción</option>
+            <option>Excelente</option>
+            <option>Buena</option>
+            <option>Regular</option>
+            <option>Mala</option>
+        </select>
+
+        <label>Comentarios o sugerencias:</label>
+        <textarea name="comentarios" rows="5"></textarea>
+
+        <button type="submit">Enviar Encuesta</button>
+
+    </form>
+
+</body>
+</html>
